@@ -1,20 +1,26 @@
-# Plotly_visualize
-Self-developing visualize library using Plotly
+# Plot_visualize
+Self-developing visualization library using Plotly library created by Nick Cheng.
+When I need to quickly review the data, I need to call out every column in dataset and find the program syntax of each visualization library.
+So I decided to self-develop my library, including sort value, filter index, set the visualization image, etc., which are extremely high frequently used.
 
 Default parameter setting : plotly_plot(data,choose=False,From=None,To=None,sort=False,By=None,x_name=None,y_name=None,Save=False,fig_name='test'):
 Parameters:
 
-          data : 放資料集名稱
-        choose : 是否篩選資料index(True or False)
-          From : choose=True時，放篩選資料起點(int)
-            To : choose=True時，放篩選資料終點(int)
-          sort : 放排序欄位(True or False)
-            By : sort=True時，放排序欄位(str)
-        x_name : 放x軸名稱(str)
-        y_name : 放y軸名稱(str)
-          Save : 是否存檔(True or False)，True於目前資料夾自動創建images資料夾，圖片格式png
-      fig_name : 放圖片檔案名稱(str)
+          data : name of data set
+        choose : if filter the index or not (True or False)
+          From : when choose=True, put the index you want to visualize from (integer type)
+            To : when choose=True, put the index you want to stop visualize (integer type)
+          sort : if sort the value or not (True or False)
+            By : when sort=True, put the column you want to sort by
+        x_name : x axis name (string type)
+        y_name : y axis name (string type)
+          Save : save file or not (True or False), if True, automatically build a folder named "images" to store the image, save as png format
+      fig_name : put file name (strong type)
 
 Let's try it!
-![image](https://github.com/hihinick/Plotly_visualize/assets/86997964/b166a0b1-2428-4879-9189-ff598249c53a)
+[1] import required library
+[2] read csv file
+[3] visualize
+![image](https://github.com/hihinick/Plotly_visualize/assets/86997964/0cc8ad5f-c5ae-4122-9f57-455471875888)
+
 
