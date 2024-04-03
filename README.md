@@ -1,6 +1,8 @@
 # Plot_visualize
 Self-developing visualization library using Plotly library created by Nick Cheng.
+
 When I need to quickly review the data, I need to call out every column in dataset and find the program syntax of each visualization library.
+
 So I decided to self-develop my library, including sort value, filter index, set the visualization image, etc., which are extremely high frequently used.
 
 Default parameter setting : plotly_plot(data,choose=False,From=None,To=None,sort=False,By=None,x_name=None,y_name=None,Save=False,fig_name='test'):
