@@ -3,6 +3,7 @@ Self-developing visualize library using Plotly
 
 Default parameter setting : plotly_plot(data,choose=False,From=None,To=None,sort=False,By=None,x_name=None,y_name=None,Save=False,fig_name='test'):
 Parameters:
+
           data : 放資料集名稱
         choose : 是否篩選資料index(True or False)
           From : choose=True時，放篩選資料起點(int)
