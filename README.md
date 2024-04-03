@@ -3,9 +3,9 @@ Self-developing visualize library using Plotly
 
 Parameters:
 #預設參數 : plotly_plot(data,choose=False,From=None,To=None,sort=False,By=None,x_name=None,y_name=None,Save=False,fig_name='test'):
-    data : 放資料集名稱
-  choose : 是否篩選資料index(True or False)
-    From : choose=True時，放篩選資料起點(int)
+data : 放資料集名稱
+choose : 是否篩選資料index(True or False)
+From : choose=True時，放篩選資料起點(int)
       To : choose=True時，放篩選資料終點(int)
     sort : 放排序欄位(True or False)
       By : sort=True時，放排序欄位(str)
