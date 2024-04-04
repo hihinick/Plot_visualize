@@ -1,12 +1,12 @@
 # Plot_visualize
-Self-developing visualization library using Plotly library created by Nick Cheng in 2022. Upload to GitHub in Apr. 2024.
+Self-developing visualization library using Plotly library created by Nick Cheng.
 
 When I need to quickly review the data, I need to call out every column in dataset and find the program syntax of each visualization library.
 
-So I decided to self-develop my library, including sort value, filter index, set the visualization image, etc., which are extremely high frequently used.
+So I decided to self-develop my library, including sort value, filter index, set the visualization image, etc., which are extremely high frequently used functions.
 
 
-Default parameter setting : plotly_plot(data,choose=False,From=None,To=None,sort=False,By=None,x_name=None,y_name=None,Save=False,fig_name='test'):
+Default parameter setting : plotly_plot(data, choose=False, From=None, To=None, sort=False, By=None, x_name=None, y_name=None, Save=False, fig_name='test'):
 
 Parameters:
 
@@ -22,6 +22,7 @@ Parameters:
       fig_name : put file name (string type)
 
 Let's start at plotly!
+
 [1] Import required library
 
 [2] Read CSV file
@@ -44,6 +45,6 @@ One of the pros that I love is that Plotly can zoom in/ zoom out or choose a par
 
 If there are any questions, please fill free to contact me by email: nick87812916@gmail.com.
 
-Welcome any suggestions! Thank you:)
+Welcome any suggestions! Thank you :)
 
 
